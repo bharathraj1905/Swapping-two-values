@@ -18,9 +18,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
-
-
+```py
+x=input()
+y=input()
+z=x
+x=y
+y=z
+print("Swapped values are:",x,y)
+```
+## OUTPUT:
+![output](/SWAP%20OUTPUT.png)
 ## RESULT:
 Thus the swapping of two values are successfully executed
 
